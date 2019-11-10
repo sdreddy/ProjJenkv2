@@ -12,6 +12,7 @@
 
 <input name="username">
 <input name="email">
+<input name="Company">
 <input type="submit">
 </form>
 </body>

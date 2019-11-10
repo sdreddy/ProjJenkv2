@@ -11,7 +11,8 @@
 out.print(request.getParameter("username"));
 out.print("<br/><br/><br/>");
 out.print(request.getParameter("email"));
-
+out.print("<br/><br/><br/>");
+out.print(request.getParameter("company"));
 %>
 </body>
 </html>
