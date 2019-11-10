@@ -7,12 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Sample Application</h1>
-<form action="view.jsp" method="post">
+<%
+out.print(request.getParameter("username"));
+out.print("<br/><br/><br/>");
+out.print(request.getParameter("email"));
 
-<input name="username">
-<input name="email">
-<input type="submit">
-</form>
+%>
 </body>
 </html>
